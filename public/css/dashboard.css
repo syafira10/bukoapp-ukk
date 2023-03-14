@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins&display=swap');
+nav{
+    background-color: #111827;
+}
+#title-nav{
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: white;
+}
+#text-login{
+    font-family: 'Montserrat';
+    color: white;
+    font-size: 16px;
+}
+#text-register{
+    font-family: 'Montserrat';
+    color: white;
+    font-size: 16px;
+}
+
+/* untuk landing page (dibawah navbar)*/
+.landing{
+    display: flex;
+    flex-direction: row;
+    margin: 32px;
+}
+.img-landing{
+    margin-top: 8%;
+}
+#title-landing{
+    margin-top: 15%;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: bold;
+}
+#title-desc{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: normal;
+    max-width: 80%;
+}
+
+/* infromation */
+.bg-information{
+    background-color: #111827;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Montserrat';
+}
+
+/* menampilkan data */
+.container-read{
+    display: flex;
+    flex-wrap: wrap;
+}
+.read-one{
+    margin-top: 5%;
+    flex: 1 0 21%;
+}
+
+#font-family{
+    font-family: 'Montserrat';
+}
